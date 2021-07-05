@@ -9,138 +9,156 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
 
+    <input type="checkbox" id="Darkmode_id" class="hidden">
+
     <main>
 
-        <div class="row">
+        <div class="container">
 
-            <!-- Conteúdos do lado esquerdo-->
-            <div class="column column--esquerda">
+            <div class="row">
 
-                <div class="informacoesContato">
+                <!-- Conteúdos do lado esquerdo-->
+                <div class="column column--esquerda">
 
-                    <figure class="informacoesContato__Perfil">
-                        <img src="./assets/img/larissa.jpg" alt="Larissa Souza">
-                        <figcaption>Imagem de perfil Portfolio</figcaption>
-                    </figure>
+                    <div class="informacoesContato">
+                        <div class="container container--column">
+                            <figure class="informacoesContato__Perfil">
+                                <img src="./assets/img/larissa.png" alt="Larissa Souza">
+                                <figcaption class="hidden">Imagem de perfil Portfolio</figcaption>
+                            </figure>
 
-                    <div class="informacoesContato__Descricao">
-                        <h1>Larissa Souza</h1>
-                        <h2>Estudante de TI</h2>
-                        <address>
-              <ul>
-                <li>
-                  <a href="mailto:larissa.alves.souza@outlook.com">larissa.alves.souza@outlook.com</a>
-                </li>
-                <li>
-                  <a href="tel:11994668270">(11) 99466-8270</a>
-                </li>
-                <li>
-                  <a href="#">Rua Transilvânia, 66, Serraria - Diadema - SP</a>
-                </li>
-              </ul>
-            </address>
+                            <div class="informacoesContato__Descricao">
+                                <h1>Larissa Souza</h1>
+                                <h2>Estudante de TI</h2>
+                                <address>
+                                    <ul>
+                                        <li>
+                                            <a
+                                                href="mailto:larissa.alves.souza@outlook.com">larissa.alves.souza@outlook.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:11994668270">(11) 99466-8270</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Rua Transilvânia, 66, Serraria - Diadema - SP</a>
+                                        </li>
+                                    </ul>
+                                </address>
+                            </div>
+
+                            <div class="informacoesContato__Darkmode">
+                                <label for="Darkmode_id">
+                                    <span></span>
+                                </label>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
+                <!-- Conteúdos do lado direito-->
+                <div class="column column--direita">
 
-            <!-- Conteúdos do lado direito-->
-            <div class="column column--direita">
+                    <div class="informacoesExperiencia">
+                        <div class="container container--column">
 
-                <div class="informacoesExperiencia">
+                            <!-- Perfil Profissional-->
+                            <section class="informacoesExperiencia__Perfil">
+                                <h2>Perfil Profissional</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin velit congue, viverra sem sit amet, porttitor sem. Donec auctor leo a rhoncus suscipit. Etiam fringilla sed sem non faucibus. Suspendisse eleifend
+                                    pharetra dapibus. Nam ac elit volutpat, porta augue ut, fermentum nulla. Duis auctor sit amet tellus ac fringilla. Curabitur vitae elit quis magna cursus pharetra non nec risus. Integer ac lacus a enim finibus ornare
+                                    eget in mauris. Praesent et convallis sapien, sed eleifend enim. Maecenas tempor vitae neque at porta. Mauris viverra urna nec lectus iaculis, vel bibendum lectus luctus. Mauris sit amet ullamcorper diam, facilisis
+                                    posuere nisl.
+                                </p>
+                            </section>
 
-                    <!-- Perfil Profissional-->
-                    <section class="informacoesExperiencia__Perfil">
-                        <h2>Perfil Profissional</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin velit congue, viverra sem sit amet, porttitor sem. Donec auctor leo a rhoncus suscipit. Etiam fringilla sed sem non faucibus. Suspendisse eleifend pharetra
-                            dapibus. Nam ac elit volutpat, porta augue ut, fermentum nulla. Duis auctor sit amet tellus ac fringilla. Curabitur vitae elit quis magna cursus pharetra non nec risus. Integer ac lacus a enim finibus ornare eget in mauris.
-                            Praesent et convallis sapien, sed eleifend enim. Maecenas tempor vitae neque at porta. Mauris viverra urna nec lectus iaculis, vel bibendum lectus luctus. Mauris sit amet ullamcorper diam, facilisis posuere nisl. Donec nunc
-                            sapien, venenatis eget sapien quis, pretium ultricies velit.</p>
-                    </section>
+                            <!-- Especialidades -->
+                            <section class="informacoesExperiencia__Especialidades">
+                                <h2>Especialidades</h2>
+                                <ul>
+                                    <li>
+                                        <p>HTML 5</p>
+                                    </li>
 
-                    <!-- Especialidades -->
-                    <section class="informacoesExperiencia__Especialidades">
-                        <h2>Especialidades</h2>
-                        <ul>
-                            <li>
-                                <p>HTML 5</p>
-                            </li>
+                                    <li>
+                                        <p>CCS 3</p>
+                                    </li>
 
-                            <li>
-                                <p>CCS 3</p>
-                            </li>
+                                    <li>
+                                        <p>JavaScript</p>
+                                    </li>
 
-                            <li>
-                                <p>JavaScript</p>
-                            </li>
+                                    <li>
+                                        <p>ReactJS</p>
+                                    </li>
 
-                            <li>
-                                <p>ReactJS</p>
-                            </li>
+                                    <li>
+                                        <p>Python</p>
+                                    </li>
+                                </ul>
 
-                            <li>
-                                <p>Python</p>
-                            </li>
-                        </ul>
+                            </section>
 
-                    </section>
+                            <!-- Formação -->
+                            <section class="informacoesExperiencia__Formacao">
+                                <h2>Cursos Complementares</h2>
+                                <ul>
+                                    <li>
+                                        <p>Semana Start Sua Carreira Dev - Kenzie Academy Brasil</p>
+                                    </li>
 
-                    <!-- Formação -->
-                    <section class="informacoesExperiencia__Formacao">
-                        <h2>Cursos Complementares</h2>
-                        <ul>
-                            <li>
-                                <p>Semana Start Sua Carreira Dev - Kenzie Academy Brasil</p>
-                            </li>
+                                    <li>
+                                        <p>Zero ao Python - Kenzie Academy Brasil</p>
+                                    </li>
 
-                            <li>
-                                <p>Zero ao Python - Kenzie Academy Brasil</p>
-                            </li>
+                                    <li>
+                                        <p>Zero ao Javascript - Kenzie Academy Brasil</p>
+                                    </li>
 
-                            <li>
-                                <p>Zero ao Javascript - Kenzie Academy Brasil</p>
-                            </li>
+                                    <li>
+                                        <p>Olimpíadas da Programação - Kenzie Academy Brasil</p>
+                                    </li>
 
-                            <li>
-                                <p>Olimpíadas da Programação - Kenzie Academy Brasil</p>
-                            </li>
+                                    <li>
+                                        <p>Full-stack completo - Kenzie Academy Brasil</p>
+                                    </li>
+                                </ul>
+                            </section>
 
-                            <li>
-                                <p>Full-stack completo - Kenzie Academy Brasil</p>
-                            </li>
-                        </ul>
-                    </section>
+                            <!-- Experiência Profissional -->
+                            <section class="informacoesExperiencia__Profissional">
+                                <h2>Experiência Profissional</h2>
+                                <ul>
+                                    <li>
+                                        <h3>Facilitador de treinamento</h3>
+                                        <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
+                                        <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
+                                    </li>
 
-                    <!-- Experiência Profissional -->
-                    <section class="informacoesExperiencia__Profissional">
-                        <h2>Experiência Profissional</h2>
-                        <ul>
-                            <li>
-                                <h3>Facilitador de treinamento</h3>
-                                <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
-                                <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
-                            </li>
+                                    <li>
+                                        <h3>Facilitador de treinamento</h3>
+                                        <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
+                                        <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
+                                    </li>
 
-                            <li>
-                                <h3>Facilitador de treinamento</h3>
-                                <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
-                                <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
-                            </li>
+                                    <li>
+                                        <h3>Facilitador de treinamento</h3>
+                                        <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
+                                        <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
+                                    </li>
+                                </ul>
+                            </section>
 
-                            <li>
-                                <h3>Facilitador de treinamento</h3>
-                                <strong>Nome da empresa: Kenzie Academy Brasil - Tempo integral</strong>
-                                <p>Período do emprego: mar. de 2020 – o momento | Duração 1 ano 1 mês Localidade Curitiba, Paraná</p>
-                            </li>
-                        </ul>
-                    </section>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -157,35 +175,35 @@
             <ul class="redesSociais__lista">
 
                 <!-- Ícone Linkedin -->
-                <li class="redesSociais__lista__linkedin">
+                <li class="redesSociais__lista__item">
                     <a href="#">
                         <img src="./assets/img/linkedin.svg" alt="linkedin">
                     </a>
                 </li>
 
                 <!-- Ícone Github -->
-                <li class="redesSociais__lista__github">
+                <li class="redesSociais__lista__item">
                     <a href="#">
                         <img src="./assets/img/github.svg" alt="github">
                     </a>
                 </li>
 
                 <!-- Ícone Instagram -->
-                <li class="redesSociais__lista__instagram">
+                <li class="redesSociais__lista__item">
                     <a href="#">
                         <img src="./assets/img/instagram.svg" alt="instagram">
                     </a>
                 </li>
 
                 <!-- Ícone Youtube -->
-                <li class="redesSociais__lista__youtube">
+                <li class="redesSociais__lista__item">
                     <a href="#">
                         <img src="./assets/img/youtube.svg" alt="youtube">
                     </a>
                 </li>
 
                 <!-- Ícone Facebook -->
-                <li class="redesSociais__lista__facebook">
+                <li class="redesSociais__lista__item">
                     <a href="#">
                         <img src="./assets/img/facebook.svg" alt="facebook">
                     </a>
